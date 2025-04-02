@@ -1,6 +1,7 @@
 function Block2() {
   return (
-    <div className='flex flex-col md:flex-row overflow-hidden rounded-lg shadow-lg mt-10 w-full max-w-6xl'>
+    <div className="px-4 sm:px-8 w-full mt-20 mb-10">
+      <div className='flex flex-col md:flex-row overflow-hidden rounded-lg shadow-lg w-full max-w-6xl mx-auto'>
         <div className="flex-1 p-8 bg-purple-200 flex items-center justify-center">
           <p className="text-lg text-gray-700 max-w-md">
               ¿Prefieres que te llamemos? Déjanos tu número y te contactaremos para explicarte cómo aprovechar el Bono Digital.
@@ -30,6 +31,7 @@ function Block2() {
           </form>
         </div>
       </div>
+    </div>
   );
 }
 
